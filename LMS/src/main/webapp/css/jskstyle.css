@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+
+body
+{
+  background-color:rgb(255, 170, 213);
+    position: relative;
+
+  }
+
+.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color:RGB(88, 14, 60);
+    position: relative;
+
+}
+
+li 
+{
+  float: left;
+    border-right: 1px solid blue;
+      position: relative;
+
+}
+
+li a 
+{
+  display: block;
+  color: white;
+ font-size:18px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+    position: relative;
+
+}
+.active
+{
+background-color:#A95B84;
+color: white;
+}
+li a:hover {
+  background-color: orange;
+  color: white;
+    position: relative;
+
+}
+
+h3{
+	  position: relative;
+		color: white;
+}
+h1{
+	  position: relative;
+		color: white;
+}

@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-hi aa
+
+<%@ include file="adminnavbar.jsp" %>
+
+hi my name is karthikeya
 </body>
 </html>
